@@ -1,0 +1,7 @@
+add_test([=[DoublyLinkedListTest.InsertNodes]=]  /Users/salehabdelrahman/Desktop/computer_programming_2/exercisesday6/build/bin/test_my_library [==[--gtest_filter=DoublyLinkedListTest.InsertNodes]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DoublyLinkedListTest.InsertNodes]=]  PROPERTIES WORKING_DIRECTORY /Users/salehabdelrahman/Desktop/computer_programming_2/exercisesday6/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[DoublyLinkedListTest.EraseNodes]=]  /Users/salehabdelrahman/Desktop/computer_programming_2/exercisesday6/build/bin/test_my_library [==[--gtest_filter=DoublyLinkedListTest.EraseNodes]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DoublyLinkedListTest.EraseNodes]=]  PROPERTIES WORKING_DIRECTORY /Users/salehabdelrahman/Desktop/computer_programming_2/exercisesday6/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[DoublyLinkedListTest.AddNodes]=]  /Users/salehabdelrahman/Desktop/computer_programming_2/exercisesday6/build/bin/test_my_library [==[--gtest_filter=DoublyLinkedListTest.AddNodes]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DoublyLinkedListTest.AddNodes]=]  PROPERTIES WORKING_DIRECTORY /Users/salehabdelrahman/Desktop/computer_programming_2/exercisesday6/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_my_library_TESTS DoublyLinkedListTest.InsertNodes DoublyLinkedListTest.EraseNodes DoublyLinkedListTest.AddNodes)
